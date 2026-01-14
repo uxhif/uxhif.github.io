@@ -37,31 +37,31 @@
         </p>
       {% endif %}
 
-      <!-- Links -->
-      <p class="pub-links">
-      {%- if post.paperurl -%}
-        <a href="{{ post.paperurl }}">Paper</a>
-      {%- else -%}
-        <span class="pub-link-disabled">Paper</span>
-      {%- endif -%}
-    
-      |
-    
-      {%- if post.codeurl -%}
-        <a href="{{ post.codeurl }}">Code</a>
-      {%- else -%}
-        <span class="pub-link-disabled">Code</span>
-      {%- endif -%}
-    
-      |
-    
-      {%- if post.bibtexurl -%}
-        <a href="#" class="bibtex-link" data-bibtex="{{ post.bibtexurl }}">BibTeX</a>
-      {%- else -%}
-        <span class="pub-link-disabled">BibTeX</span>
-      {%- endif -%}
-    
-    </p>
+      <!-- Publication links -->
+      <div class="pub-links">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank">Paper</a>
+        {% else %}
+          <span class="pub-link-disabled">Paper</span>
+        {% endif %}
+      
+        <span class="pub-sep">|</span>
+      
+        {% if post.codeurl %}
+          <a href="{{ post.codeurl }}" target="_blank">Code</a>
+        {% else %}
+          <span class="pub-link-disabled">Code</span>
+        {% endif %}
+      
+        <span class="pub-sep">|</span>
+      
+        {% if post.bibtexurl %}
+          <a href="#" class="bibtex-link" data-bibtex="{{ post.bibtexurl }}">BibTeX</a>
+        {% else %}
+          <span class="pub-link-disabled">BibTeX</span>
+        {% endif %}
+      </div>
+
 
     </div>
   </article>
