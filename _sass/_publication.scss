@@ -59,3 +59,14 @@
   color: #aaa;
   cursor: default;
 }
+
+/* Override archive teaser behavior for publications */
+.archive__item.pub-item {
+  display: flex !important;
+  align-items: flex-start;
+  overflow: visible;
+}
+
+.archive__item.pub-item img {
+  max-width: none;
+}
