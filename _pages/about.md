@@ -14,6 +14,14 @@ My research focuses on geometric deep learning. More broadly, I am interested in
 
 News
 -----
+<ul>
+  {% for item in site.data.news limit:5 %}
+    <li>
+      <strong>[{{ item.date | date: "%Y.%m" }}]</strong>
+      {{ item.text }}
+    </li>
+  {% endfor %}
+</ul>
 
 Selected Publications
 -----
