@@ -7,14 +7,14 @@
 }
 
 .pub-thumb {
-  width: 200px;        // 가로만 통일
+  width: 200px;
   flex-shrink: 0;
   margin-right: 1em;
 }
 
 .pub-thumb img {
   width: 100%;
-  height: auto;        // 비율 유지
+  height: auto;
   border-radius: 4px;
   display: block;
 }
