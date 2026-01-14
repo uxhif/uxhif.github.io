@@ -1,0 +1,41 @@
+/* Publications layout */
+
+.pub-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+
+.pub-thumb {
+  width: 120px;        // 가로만 통일
+  flex-shrink: 0;
+  margin-right: 1em;
+}
+
+.pub-thumb img {
+  width: 100%;
+  height: auto;        // 비율 유지
+  border-radius: 4px;
+  display: block;
+}
+
+.pub-title {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.pub-meta {
+  margin: 0.2em 0;
+  font-size: 0.95em;
+}
+
+.pub-authors {
+  margin: 0.2em 0;
+  font-size: 0.85em;
+  color: #555;
+}
+
+.pub-links {
+  margin-top: 0.3em;
+  font-size: 0.95em;
+}
