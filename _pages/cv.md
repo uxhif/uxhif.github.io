@@ -37,6 +37,5 @@ Publications
 
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Fall 2023 - Spring 2025: KAIST Outreach Program (KSOP) Mentor
+  * Mentored middle and high school students in math and science, providing academic and career guidance
