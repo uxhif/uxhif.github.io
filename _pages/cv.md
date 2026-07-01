@@ -13,7 +13,7 @@ Education
 ======
 * M.S. in Computer Science, KAIST (Mar. 2026 - present)
 * B.S. in Mathematical Science & Computer Science (Double Major), KAIST (Mar. 2021 - Feb. 2026)
-* Spring 2023 eschange at TU Berlin
+* Spring 2023 exchange at TU Berlin
 
 Work experience
 ======
@@ -37,10 +37,12 @@ Publications
 
 Teaching
 ======
+* Spring 2026: Teaching Assistant, KAIST CS
+  * CS103: Elements of AI
 * Fall 2023 - Spring 2025: KAIST Outreach Program (KSOP) Mentor
   * Mentored middle and high school students in math and science, providing academic and career guidance
  
 Academic Services
 ======
-* Reviewer: ICLR 2026 Workshop GRaM
+* Reviewer: ICLR 2026 Workshop GRaM, ICML 2026 Workshop GFM
 
